@@ -1,0 +1,27 @@
+# 密钥与本地配置（勿提交）
+.env
+.env.*
+!.env.example
+config.ini
+*.local
+
+# 依赖
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 构建产物
+dist/
+build/
+*.exe
+
+# 日志与运行状态
+*.log
+*.db
+screenshots/
+
+# 系统
+.DS_Store
+Thumbs.db
